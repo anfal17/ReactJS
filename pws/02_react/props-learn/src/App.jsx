@@ -30,7 +30,7 @@ function App() {
         <span>Child tag</span>
       </Avatar>
 
-      {todos.map(cd(v, idx) => <li key = {idx}>{v}</li> )}
+      {todos.map((v, idx) => <li key = {idx}>{v}</li> )}
     </>
   );
 }
